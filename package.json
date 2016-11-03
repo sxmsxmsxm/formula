@@ -1,5 +1,5 @@
 {
-  "name": "react-init",
+  "name": "react-demo",
   "version": "1.0.0",
   "description": "A scaffold for react projects.",
   "main": "index.js",
@@ -11,10 +11,9 @@
   },
   "keywords": [
     "react",
-    "redux",
     "ant-design"
   ],
-  "author": "woota <wutayunfan@gmail.com>",
+  "author": "58567883@qq.com",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.17.0",
@@ -37,8 +36,6 @@
     "lodash": "^4.15.0",
     "antd": "^0.12.x",
     "react": "0.14.8",
-    "react-dom": "0.14.8",
-    "redux": "^3.5.2",
-    "react-redux": "^4.4.5"
+    "react-dom": "0.14.8"
   }
 }
