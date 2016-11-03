@@ -1,0 +1,44 @@
+{
+  "name": "react-init",
+  "version": "1.0.0",
+  "description": "A scaffold for react projects.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node_modules/.bin/webpack-dev-server",
+    "build": "node_modules/.bin/webpack",
+    "antd": "node_modules/.bin/shx cp node_modules/antd/lib/index.css dist/libs/antd.css",
+    "test": ""
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "ant-design"
+  ],
+  "author": "woota <wutayunfan@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.22.0",
+    "mocha": "^3.0.2",
+    "shx": "^0.1.3",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-merge": "^0.14.1"
+  },
+  "dependencies": {
+    "lodash": "^4.15.0",
+    "antd": "^0.12.x",
+    "react": "0.14.8",
+    "react-dom": "0.14.8",
+    "redux": "^3.5.2",
+    "react-redux": "^4.4.5"
+  }
+}
